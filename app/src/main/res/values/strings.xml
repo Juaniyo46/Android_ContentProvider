@@ -5,4 +5,5 @@
     <string name="consultar">Consultar</string>
     <string name="limpiar">Limpiar</string>
     <string name="mostrar_contactos">Mostrar Contactos</string>
+    <string name="consultar_llamadas">Consultar llamadas</string>
 </resources>

@@ -10,46 +10,13 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_margin="10dp"
-        android:gravity="center_horizontal">
-
-        <Button
-            android:id="@+id/consultar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/consultar"/>
-
-        <Button
-            android:id="@+id/insertar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/insertar"/>
-
-        <Button
-            android:id="@+id/eliminar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/eliminar"/>
-
-        <Button
-            android:id="@+id/limpiar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/limpiar"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:layout_margin="10dp">
 
         <Button
-            android:id="@+id/contactos"
+            android:id="@+id/consultar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/mostrar_contactos"/>
+            android:text="@string/consultar_llamadas"/>
 
     </LinearLayout>
 
@@ -57,7 +24,6 @@
         android:id="@+id/item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Prueba"
         android:textSize="25dp"
         android:textStyle="italic"
         android:layout_margin="10dp"/>
